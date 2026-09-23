@@ -1,0 +1,31 @@
+{
+  "name": "corsair-perifericos-api",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de perifericos Corsair",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "corsair",
+    "perifericos",
+    "api",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.3",
+    "supertest": "^7.0.0"
+  }
+}
